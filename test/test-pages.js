@@ -10,3 +10,21 @@ describe('Main page content', () => {
         expect(body).to.equal('Hello World');
     });
 });
+
+describe('HTTP Request Tests', () => {
+    it('Main page status', async () => {
+        const response = await fetch('http://localhost:8080');
+        const statusCode = response.status;
+
+        expect(statusCode).to.equal(200);
+    });
+});
+
+describe('HTTP Request Tests', () => {
+    it('About page content', async () => {
+        const response = await fetch('http://localhost:8080/about');
+        const statusCode = response.status;
+
+        expect(statusCode).to.equal(404);
+    });
+});
