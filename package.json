@@ -1,0 +1,35 @@
+{
+  "name": "y",
+  "version": "1.1.0",
+  "description": "Test for Mocha, Chai and Node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixiobarrios/mocha-chai-node-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "node"
+  ],
+  "author": "Rixio Barrios",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rixiobarrios/mocha-chai-node-test/issues"
+  },
+  "homepage": "https://github.com/rixiobarrios/mocha-chai-node-test#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "node-fetch": "^2.7.0"
+  }
+}
+
